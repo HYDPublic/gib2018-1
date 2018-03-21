@@ -58,7 +58,7 @@ private static async Task<byte[]> GenerateThumbnail(byte[] image)
     client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "<YOUR KEY>");
 
     var requestParameters = "width=200&height=150&smartCropping=true";
-    var uri = " https://southeastasia.api.cognitive.microsoft.com/vision/v1.0/generateThumbnail?" + requestParameters;
+    var uri = "https://southeastasia.api.cognitive.microsoft.com/vision/v1.0/generateThumbnail?" + requestParameters;
 
     using (var content = new ByteArrayContent(image))
     {

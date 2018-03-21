@@ -1,0 +1,23 @@
+[{
+  "topic": "/subscriptions/9ac0ea50-9ac0-4854-8a7e-c8ff07fc9ac0/resourceGroups/gib2018mel-rgrp-pc02/providers/Microsoft.Storage/storageAccounts/mystoracc",
+  "subject": "/blobServices/default/containers/images/blobs/dog.jpg",
+  "eventType": "Microsoft.Storage.BlobCreated",
+  "eventTime": "2018-03-21T07:01:22.2979643Z",
+  "id": "ccf2bbfa-501e-00b1-15e2-c01a8a064f77",
+  "data": {
+    "api": "PutBlob",
+    "clientRequestId": "a826a040-2cd5-11e8-8e21-ef28efca5e91",
+    "requestId": "ccf2bbfa-501e-00b1-15e2-c01a8a000000",
+    "eTag": "0x8D58EF98DFD443B",
+    "contentType": "image/jpeg",
+    "contentLength": 60591,
+    "blobType": "BlockBlob",
+    "url": "https://mystoracc.blob.core.windows.net/images/dog.jpg",
+    "sequencer": "0000000000000000000000000000021F0000000000069a0c",
+    "storageDiagnostics": {
+      "batchId": "3bef1cb0-367b-41de-8378-21d64aca27ab"
+    }
+  },
+  "dataVersion": "",
+  "metadataVersion": "1"
+}]
